@@ -57,4 +57,3 @@ const inTheRed = (total) => {
         return false
     }
 }
-
