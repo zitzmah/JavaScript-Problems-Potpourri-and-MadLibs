@@ -1,1 +1,7 @@
-console.log("Hello")
+let words = {
+    number: "",
+    adjective: "",
+    pluralNoun: "",
+    adverb: "",
+    anotherAdjective: ""
+}
