@@ -19,5 +19,16 @@ const startMadLib = () => {
     words.anotherAdjective = anotherAdj
 }
 
+const techStartupStory = () => {
+    alert(
+        `Once upon a time a group of ${words.number} General Assembly graduates 
+        got together and made a startup called ${words.adjective} Technologies.
+        Their goal was to create smart ${words.pluralNoun}.
+        They approached the challenge ${words.adverb}
+        which ultimately led them to ${words.anotherAdjective} fame.
+        `
+    )
+}
+
 startMadLib()
-console.log(words)
+techStartupStory()
